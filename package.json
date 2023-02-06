@@ -1,0 +1,21 @@
+{
+  "name": "webbserver-project-1",
+  "version": "1.0.0",
+  "description": "Mitt projekt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Simon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
